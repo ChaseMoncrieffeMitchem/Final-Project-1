@@ -28,10 +28,18 @@ h1 {
 
 h2 {
     font-size: 54px;
+    margin-bottom: 24px;
 }
 
 h5 {
     font-size: 24px;
+    color: rgb(100 21 255);
+    margin-bottom: 24px;
+}
+
+h6 {
+    font-size: 24px;
+    margin-bottom: 12px;
 }
 
 p {
@@ -90,13 +98,14 @@ nav {
 
 .btn {
     padding: 14px 32px;
-    background-color: rgba(100, 21, 255, 0.788);
+    background-color: rgba(75, 16, 194, 0.788);
     border-radius: 50px;
     transition: all 300ms ease;
+    border: none;
 }
 
 .btn:hover {
-    background-color: rgba(99, 21, 255, 0.945);
+    background-color: rgba(88, 18, 228, 0.945);
 }
 
 .nav__anchor--primary {
@@ -184,11 +193,17 @@ FEATURES
     margin: 0 auto;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 48px;
+}
+
+.features__row {
+    margin-left: 12px;
 }
 
 .features__links {
     display: flex;
     flex-wrap: wrap;
+    height: 200px;
 }
 
 .features__link {
@@ -206,11 +221,245 @@ FEATURES
 .features__para--1 {
     font-size: 20px;
     margin: 0 auto;
+    text-align: left;
 }
 
+.features__img--container {
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border-width: 1px;
+    padding: 1.25rem;
+    text-align: center;
+    border-style: solid;
+    height: 25px;
+}
 
+/* 
 
+QUALITY WORKS 
 
+*/
+
+.qw--para {
+    margin-bottom: 24px;
+}
+
+.qw--row {
+    display: flex;
+}
+
+.quality-work__left--container {
+    width: 50%;
+}
+
+.quality-work__right--container {
+    width: 50%;
+    margin-left: 24px;
+}
+
+.qw--img {
+    width: 100%;
+}
+
+/* 
+
+STEPS 
+
+*/
+
+.steps--row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps__left--container {
+    width: 50%;
+}
+
+.steps__img {
+    width: 100%;
+}
+
+.steps__right--container {
+    width: 50%;
+}
+
+.steps__li {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.steps__numbering {
+    margin-right: 18px;
+    color: rgb(203 213 224);
+    font-size: 48px;
+    line-height: 1;
+}
+
+/* 
+
+VALUES 
+
+*/
+
+.values__row {
+    display: flex;
+    align-items: center;
+}
+
+.values__left--container {
+    width: 50%;
+}
+
+.values__right--container {
+    width: 50%;
+}
+
+.values__img {
+    width: 100%;
+}
+
+.values__para {
+    margin-bottom: 24px;
+}
+
+.values__ul {
+    margin-bottom: 36px;
+    display: flex;
+}
+
+.values__paint {
+    display: flex;
+    align-items: center;
+
+}
+
+.values__para--1 {
+    margin: 12px 0;
+}
+
+.values__affordable {
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.values__colored--bg {
+    padding: 14px 14px;
+    background-color: rgb(154 230 180);
+    border-radius: 9999px;
+    color: rgb(39 103 73);
+}
+
+.values__colored--bg2 {
+    padding: 14px 14px;
+    border-radius: 9999px;
+    background-color: rgb(254 178 178);
+}
+
+/* 
+
+PRICING
+
+*/
+
+.pricing__text {
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.pricing__para {
+    width: 100%;
+    text-align: center;
+}
+
+.pricing__plans {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.pricing__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__number {
+    font-size: 54px;
+    margin: 24px;
+}
+
+.pricing__plan {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pricing__time {
+    font-size: 18px;
+    color: rgb(160 174 192);
+}
+
+.pricing__time--m {
+    font-size: 18px;
+    color: white;
+}
+
+.pricing__middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px 0;
+}
+
+.pricing__bundle {
+    margin-bottom: 36px;
+    width: calc(100% / 3);
+    padding: 36px 12px 36px 12px;
+}
+
+.pricing__bundle--2 {
+    margin-bottom: 36px;
+    width: calc(100% / 3);
+    padding: 36px 12px 36px 12px;
+    border-radius: 10px;
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    color: rgb(247 250 252);
+}
+
+.pricing__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__line--items {
+    margin: 9px 0;
+    font-size: large;
+}
+
+.btn__personal {
+    padding: 14px 94px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    border-radius: 50px;
+    transition: all 300ms ease;
+    border: none;
+}
+
+.btn__business {
+    padding: 14px 94px;
+    background-color: rgb(247 250 252);
+    color: rgb(100, 21, 255);
+    border-radius: 50px;
+    transition: all 300ms ease;
+    border: none;
+}
+
+.btn__enterprise {
+    padding: 14px 94px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    border-radius: 50px;
+    transition: all 300ms ease;
+    border: none;
+}
 
 
 /* 
