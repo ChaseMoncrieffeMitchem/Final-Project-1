@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
   </head>
   <body>
 
@@ -28,6 +30,43 @@
               <li><a class="nav__link link__hover-effect link__hover-effect--purple" href="">Login</a></li>
               <li><a class="nav__link btn nav__anchor--primary" href="">Sign Up</a></li>
             </ul>
+            <button class="btn__menu" onclick="openMenu()">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fas fa-x"></i>
+              </button>
+              <ul class="menu__ul">
+                <li class="menu__list">
+                  <a href="#" class="menu__link">Home</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#features" class="menu__link">Features</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#quality-work" class="menu__link">Quality Work</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#steps" class="menu__link">Steps</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#values" class="menu__link">Values</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#pricing" class="menu__link">Pricing</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#testimonials" class="menu__link">Testimonials</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#faqs" class="menu__link">Faqs</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#footer" class="menu__link">Contact Us</a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </div>
@@ -65,7 +104,7 @@
       </div>
     </section>
 
-    <section id="#features">
+    <section id="features">
       <div class="container">
         <div class="row">
           <h5 class="features__h5"><span class="text--purple">FEATURES</span></h5>
@@ -97,12 +136,12 @@
               <div class="features__container">
                 <span class="features__img--container">
                   <img
-                    src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                    src="https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
                     alt=""
                   />
                 </span>
                 <div class="features__row">
-                  <span class="features__span">Secure</span>
+                  <span class="features__span">24/7 Support</span>
                   <p class="features__para--1">
                     We strictly only deal with vendors that provide top notch
                     security.
@@ -114,12 +153,12 @@
               <div class="features__container">
                 <span class="features__img--container">
                   <img
-                    src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                    src="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
                     alt=""
                   />
                 </span>
                 <div class="features__row">
-                  <span class="features__span">Secure</span>
+                  <span class="features__span">Customizable</span>
                   <p class="features__para--1">
                     We strictly only deal with vendors that provide top notch
                     security.
@@ -131,12 +170,12 @@
               <div class="features__container">
                 <span class="features__img--container">
                   <img
-                    src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                    src="https://treact.owaiskhan.me/static/media/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
                     alt=""
                   />
                 </span>
                 <div class="features__row">
-                  <span class="features__span">Secure</span>
+                  <span class="features__span">Reliable</span>
                   <p class="features__para--1">
                     We strictly only deal with vendors that provide top notch
                     security.
@@ -148,12 +187,12 @@
               <div class="features__container">
                 <span class="features__img--container">
                   <img
-                    src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                    src="https://treact.owaiskhan.me/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
                     alt=""
                   />
                 </span>
                 <div class="features__row">
-                  <span class="features__span">Secure</span>
+                  <span class="features__span">Fast</span>
                   <p class="features__para--1">
                     We strictly only deal with vendors that provide top notch
                     security.
@@ -165,12 +204,12 @@
               <div class="features__container">
                 <span class="features__img--container">
                   <img
-                    src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                    src="https://treact.owaiskhan.me/static/media/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
                     alt=""
                   />
                 </span>
                 <div class="features__row">
-                  <span class="features__span">Secure</span>
+                  <span class="features__span">Easy</span>
                   <p class="features__para--1">
                     We strictly only deal with vendors that provide top notch
                     security.
@@ -183,7 +222,9 @@
       </div>
     </section>
 
-    <section class="quality-work">
+    <div class="section__space"></div>
+
+    <section id="quality-work">
       <div class="container">
         <div class="row qw--row">
           <div class="quality-work__left--container">
@@ -268,7 +309,7 @@
               Eligendi, minima voluptas quod quo impedit blanditiis?
             </p>
             <ul class="values__ul">
-              <li>
+              <li class="values__li">
                 <div class="values__paint">
                   <div class="values__colored--bg">
                   <svg
@@ -296,7 +337,7 @@
                   industry standard.
                 </div>
               </li>
-              <li>
+              <li class="values__li">
                 <div class="values__paint">
                   <div class="values__colored--bg2">
                   <svg
@@ -414,20 +455,20 @@
       </div>
     </section>
 
-    <section class="testimonials">
+    <section id="testimonials">
       <div class="container">
-        <div class="row">
-          <figure>
-            <img
+        <div class="row test__row">
+          <figure class="test__left--container">
+            <img class="test__img"
               src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
               alt=""
             />
           </figure>
-          <div>
+          <div class="test__right--container">
             <div>
               <h5>TESTIMONIALS</h5>
               <h2>Our Clients <span class="text--purple">Love Us.</span></h2>
-              <p>
+              <p class="test__para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                 ducimus, eum quasi aut ipsam obcaecati cum itaque, atque
                 reprehenderit quis, corporis hic quidem omnis corrupti
@@ -477,26 +518,28 @@
                   ></path>
                 </svg>
               </div>
-              <span>Amazing User Experience</span>
-              <p>
+              <span class="test__bold--text">Amazing User Experience</span>
+              <p class="test__para">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
                 harum praesentium minima, soluta ipsam a ea aut itaque earum
                 nesciunt veritatis optio vero. Commodi facilis placeat
                 consectetur, velit odit soluta?
               </p>
-              <div>
-                <figure>
-                  <img
+              <div class="test__whole--wrapper">
+                <div class="test__img--bracket">
+                <figure class="test__img--wrapper">
+                  <img class="test__img--2"
                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
                     alt=""
                   />
                 </figure>
-                <div>
-                  <h5>Charlotte Hale</h5>
+                <div class="test__name--wrapper">
+                  <h5 class="test__name">Charlotte Hale</h5>
                   <p>Director, Delos Inc.</p>
                 </div>
-                <div>
-                  <button>
+                </div>
+                <div class="test__btn--wrapper">
+                  <button class="btn__point--left">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -508,7 +551,8 @@
                       <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                     </svg>
                   </button>
-                  <button>
+                  <div class="divider"></div>
+                  <button class="btn__point--right">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -531,7 +575,7 @@
     <section id="faqs">
       <div class="container">
         <div class="row">
-          <div>
+          <div class="faqs__text">
             <h5>FAQS</h5>
             <h2>You have <span class="text--purple">Questions?</span></h2>
             <p>
@@ -541,9 +585,11 @@
           </div>
           <div>
             <div>
-                <span>Are all the templates easily customizable?</span>
-                <span style="transform: rotate(-180deg) translateZ(0px);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
-                <dd style="opacity: 1; height: auto; margin-top: 16px;">Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+              <dt class="faqs__dt">
+                <span class="faqs__span">Are all the templates easily customizable?</span>
+              </dt>
+                <span class="faqs__span--2" style="transform: rotate(-180deg) translateZ(0px);"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                <dd class="faqs__dd" style="opacity: 1; height: auto; margin-top: 16px;">Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
             </div>
             <div>
                 <span>How long do you usually support a standalone template for?</span>
@@ -577,18 +623,18 @@
 
     <section id="developers">
         <div class="container">
-            <div class="row">
-                <div>
-                    <div>
-                        <div>
-                            <h5>Developers all over the world are happily using Treact.</h5>
+            <div class="row developers__row">
+                <div class="dev__holder">
+                    <div class="dev__holder--2">
+                        <div class="dev__h5--holder">
+                            <h5 class="developers__h5">Developers all over the world are happily using Treact.</h5>
                         </div>
-                        <div>
-                            <a href="http://timerse.com">Get Started</a>
-                            <a href="http://google.com">Contact Us</a>
+                        <div class="dev__holder--3">
+                            <a class="dev__a" href="http://timerse.com">Get Started</a>
+                            <a class="dev__a--2" href="http://google.com">Contact Us</a>
                         </div>
                     </div>
-                    <div>
+                    <div class="dev__circle--holder">
                         <svg viewBox="0 0 600 600" class="GetStarted__DecoratorBlob1-sc-qx68bw-10 gidxtt"><g transform="translate(300,300)"><path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="currentColor"></path></g></svg>
                         <svg viewBox="0 0 600 600" class="GetStarted__DecoratorBlob2-sc-qx68bw-11 kFtFRr"><g transform="translate(300,300)"><path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="currentColor"></path></g></svg>
                     </div>
@@ -599,69 +645,70 @@
 
     <section id="footer">
         <div class="container">
-            <div class="row">
+            <div class="row footer__row">
                 <div>
-                    <div>
-                        <div>
-                            <h5>MAIN</h5>
-                            <ul>
-                                <li>Blog</li>
-                                <li>FAQs</li>
-                                <li>Support</li>
-                                <li>About Us</li>
+                    <div class="footer__df">
+                        <div class="footer__text--wrapper">
+                            <h5 class="footer__h5">MAIN</h5>
+                            <ul class="footer__ul">
+                                <li class="footer__li">Blog</li>
+                                <li class="footer__li">FAQs</li>
+                                <li class="footer__li">Support</li>
+                                <li class="footer__li">About Us</li>
                             </ul>
                         </div>
-                        <div>
-                            <h5>PRODUCT</h5>
-                            <ul>
-                                <li>Log In</li>
-                                <li>Personal</li>
-                                <li>Business</li>
-                                <li>Team</li>
+                        <div class="footer__text--wrapper">
+                            <h5 class="footer__h5">PRODUCT</h5>
+                            <ul class="footer__ul">
+                                <li class="footer__li">Log In</li>
+                                <li class="footer__li">Personal</li>
+                                <li class="footer__li">Business</li>
+                                <li class="footer__li">Team</li>
                             </ul>
                         </div>
-                        <div>
-                            <h5>PRESS</h5>
-                            <ul>
-                                <li>Logos</li>
-                                <li>Events</li>
-                                <li>Stories</li>
-                                <li>Office</li>
+                        <div class="footer__text--wrapper">
+                            <h5 class="footer__h5">PRESS</h5>
+                            <ul class="footer__ul">
+                                <li class="footer__li">Logos</li>
+                                <li class="footer__li">Events</li>
+                                <li class="footer__li">Stories</li>
+                                <li class="footer__li">Office</li>
                             </ul>
                         </div>
-                        <div>
-                            <h5>TEAM</h5>
-                            <ul>
-                                <li>Career</li>
-                                <li>Founders</li>
-                                <li>Culture</li>
-                                <li>Onboarding</li>
+                        <div class="footer__text--wrapper">
+                            <h5 class="footer__h5">TEAM</h5>
+                            <ul class="footer__ul">
+                                <li class="footer__li">Career</li>
+                                <li class="footer__li">Founders</li>
+                                <li class="footer__li">Culture</li>
+                                <li class="footer__li">Onboarding</li>
                             </ul>
                         </div>
-                        <div>
-                            <h5>LEGAL</h5>
-                            <ul>
-                                <li>GDPR</li>
-                                <li>Privacy Policy</li>
-                                <li>Terms of Service</li>
-                                <li>Disclaimer</li>
+                        <div class="footer__text--wrapper">
+                            <h5 class="footer__h5">LEGAL</h5>
+                            <ul class="footer__ul">
+                                <li class="footer__li">GDPR</li>
+                                <li class="footer__li">Privacy Policy</li>
+                                <li class="footer__li">Terms of Service</li>
+                                <li class="footer__li">Disclaimer</li>
                             </ul>
                         </div>
                     </div>
                     <div class="footer__space"></div>
-                    <div>
-                        <figure>
-                            <img src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
-                        </figure>
-                        <p>© 2018 Treact Inc. All Rights Reserved.</p>
-                        <div>
-                            <a href="https://facebook.com" class="footer__link--fb"></a>
-                            <a href="https://x.com" class="footer__link--x"></a>
-                            <a href="https://youtube.com" class="footer__link--yt"></a>
+                    <div class="footer__df--2">
+                      <div class="footer__df--3">
+                            <img class="footer__img" src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
+                            <h5 class="footer__h5--2">Treact Inc.</h5>
+                      </div>
+                        <p class="footer__para">© 2018 Treact Inc. All Rights Reserved.</p>
+                        <div class="footer__link--holder">
+                            <a href="https://facebook.com" class="footer__link--fb"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path></svg></a>
+                            <a href="https://x.com" class="footer__link--x"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z"></path></svg></a>
+                            <a href="https://youtube.com" class="footer__link--yt"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"></path></svg></a>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="footer__circle--holder">
                     <svg viewBox="0 0 600 600" class="FiveColumnWithBackground__DecoratorBlob1-sc-1ra39yi-17 eqOzdE"><g transform="translate(300,300)"><path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="currentColor"></path></g></svg>
                     <svg viewBox="0 0 600 600" class="FiveColumnWithBackground__DecoratorBlob2-sc-1ra39yi-18 bbIulZ"><g transform="translate(300,300)"><path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="currentColor"></path></g></svg>
                 </div>
